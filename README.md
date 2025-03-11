@@ -1,4 +1,6 @@
-API de Gerenciamento de Jogadores ⚽
+### API de Gerenciamento de Jogadores ⚽
+
+![FastAPI Jogadores](https://github.com/daaniMatrix2/FastApi_jogadores/raw/main/fastapi.jpg)
 
 Este projeto é uma API desenvolvida com FastAPI para cadastrar, atualizar, excluir e buscar jogadores. 
 Ele suporta tanto Path Parameters quanto Query Parameters.
@@ -24,7 +26,7 @@ Ele suporta tanto Path Parameters quanto Query Parameters.
   http://127.0.0.1:8001/redoc (ReDoc)
 
 
-📌 Endpoints Disponíveis
+### 📌 Endpoints Disponíveis
 
 🔹 Listar todos os jogadores
 
@@ -53,7 +55,7 @@ Body:
 
 DELETE /exclusao-jogador/{jogador_id}
 
-Resposta:
+### Resposta:
 
 {"Mensagem": "Jogador excluído com sucesso!"}
 
@@ -84,7 +86,7 @@ Resposta:
   "time": "Palmeiras"
 }
 
-📌 Tecnologias Utilizadas
+### 📌 Tecnologias Utilizadas
 
 ✅ FastAPI - Framework para APIs rápidas em Python
 ✅ Uvicorn - Servidor ASGI para rodar a API
