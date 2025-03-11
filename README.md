@@ -6,8 +6,7 @@ Ele suporta tanto Path Parameters quanto Query Parameters.
 🚀 Como Executar o Projeto
 
 1. Clone o repositório
-  git clone https://github.com/seu-usuario/seu-repositorio.git
-  cd seu-repositorio
+  git clone https://github.com/daaniMatrix2/FastApi_jogadores
 
 2. Crie um ambiente virtual e ative-o
   python -m venv venv
@@ -22,7 +21,6 @@ Ele suporta tanto Path Parameters quanto Query Parameters.
 
 5. Acesse a documentação automática da API:
   http://127.0.0.1:8001/docs (Swagger UI)
-
   http://127.0.0.1:8001/redoc (ReDoc)
 
 
